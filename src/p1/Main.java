@@ -43,9 +43,6 @@ import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
-//        int i1 = 1, i2 = 2, i3 = 3, i4 = 4, i5 =5, i6 = 6, i7 = 7, i8 = 8, i9 = 9, i10 = 10;
-//        System.out.println(i1+i2+i3+i4+i5+i6+i7+i8+i9+i10);
-//        System.out.println(i1-i2-i3-i4-i5-i6-i7-i8-i9-i10);
 
         User u1 = new User(0,18,"Fedia","Zaicev",64.5,175.0);
         User u2 = new User(1,20,"Olya","Ivanova",50.1,178.0);
