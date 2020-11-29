@@ -1,8 +1,8 @@
 package p2;
 
-public class Veterinar {
+public class Veterinarian {
 
-    public Veterinar() {
+    public Veterinarian() {
     }
 
     void treatAnimal(Animal animal){
