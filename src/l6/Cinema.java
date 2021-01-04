@@ -96,7 +96,7 @@ public class Cinema {
         for (Days day:days
              ) {
             Schedule schedule = this.scheduleTreeMap.get(day);
-            TreeSet<Seance> seances = schedule.getSeance();
+            TreeSet<Seance> seances = schedule.getSeances();
             Iterator<Seance> iterator = seances.iterator();
             while (iterator.hasNext()){
                 Seance s = iterator.next();
@@ -115,7 +115,7 @@ public class Cinema {
             ) {
                 if(dd.equals(day.toString())) {
                     Schedule schedule = this.scheduleTreeMap.get(day);
-                    TreeSet<Seance> seances = schedule.getSeance();
+                    TreeSet<Seance> seances = schedule.getSeances();
                     Iterator<Seance> iterator = seances.iterator();
                     while (iterator.hasNext()){
                         Seance s = iterator.next();

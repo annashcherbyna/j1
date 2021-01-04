@@ -1,34 +1,33 @@
 package l6;
 
-import java.util.Set;
 import java.util.TreeSet;
 
 public class Schedule {
-    TreeSet<Seance> seance;
+    TreeSet<Seance> seances;
 
     public Schedule() {
-        this.seance = new TreeSet<Seance>();
+        this.seances = new TreeSet<Seance>();
     }
     public Schedule(TreeSet treeSet) {
-        this.seance = treeSet;
+        this.seances = treeSet;
     }
 
     public void addSeance (Seance s){
-        this.seance.add(s);
+        this.seances.add(s);
     }
 
     public void removeSeance (Seance s){
-        this.seance.remove(s);
+        this.seances.remove(s);
     }
 
-    public TreeSet<Seance> getSeance() {
-        return seance;
+    public TreeSet<Seance> getSeances() {
+        return seances;
     }
 
     @Override
     public String toString() {
         String string ="";
-        for (Seance s:this.seance
+        for (Seance s:this.seances
              ) {
             string += s.toString() +"\n" ;
         }
